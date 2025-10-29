@@ -279,9 +279,12 @@ body {
 .titulow{
     justify-content: center;
 }
+
+
 .centrocalories{
 display: flex;
     justify-content: center;
     align-items: center;
 }
+
 

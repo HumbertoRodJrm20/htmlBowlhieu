@@ -100,7 +100,25 @@ body {
     padding-top:15;
     color: white;
 }
+.img1{
+    margin: 0;
+    width: 240px;
+}
 
+.centromorado{
+    width: 1050px;
+    padding-top: 290px;
+    text-align: center;
+}
+
+.titulow{
+    justify-content: center;
+}
+.centrocalories{
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .con2{
@@ -143,10 +161,17 @@ body {
     width: 99vw;
     height: 100vh;
     padding-top: 40px;
+    margin: 0;
+    padding-left: 0;
 }
 .con3titulo{
     color: white;
     text-align: center;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
 }
 .con3text{
     color: white;
@@ -156,7 +181,49 @@ body {
     padding: 0 500px 0 500px;
     text-align: center;
 }
-
+.con3_1{
+    display: flex;
+    width: 99vw;
+    justify-content: center;     
+    align-items: center; 
+    padding: 0;
+    margin: 0;
+}
+.con3_1_1{
+    width: 33vw;
+}
+.con3_1_2{
+    width: 33vw;
+}
+.con3_1_3{
+    width: 33vw;
+}
+.imgcon3{
+    width: 32vw;
+}
+.h1con3{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.ptext3{
+    padding-left: 180px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Allura', cursive;
+    font-weight: bold;
+    line-height: 0.9;
+    background: linear-gradient(to bottom,#ffffff 0%, #ffffff 100%);
+    background-clip: text;
+    letter-spacing: 0px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.ptext3_1{
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+}
 
 
 .con4{
@@ -257,6 +324,13 @@ body {
     font-weight: 20; 
     
 }
+.cilesimg{
+    width: 25vw;
+    padding-top: 38vh;
+    padding-right: 170px;
+}
+
+
 
 .con6{
     width: 99vw;
@@ -265,26 +339,79 @@ body {
     
 }
 
-.img1{
-    margin: 0;
-    width: 240px;
+.contfooter {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
 }
 
-.centromorado{
-    width: 1050px;
-    padding-top: 290px;
-    text-align: center;
+.colfooter {
+    flex-basis: 250px;
+    padding: 20px 0;
 }
 
-.titulow{
-    justify-content: center;
+.pfootercontacto {
+    color: #555555;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-top: 10vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ulfooter {
+    list-style: none;
+    padding: 0;
+}
+
+.lifooter {
+    margin-bottom: 5px;
+}
+
+.afooter {
+    text-decoration: none;
+    color: #555555;
+    font-size: 14px;
+    line-height: 2.5;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    transition: color 0.2s;
 }
 
 
-.centrocalories{
-display: flex;
-    justify-content: center;
+
+.bottomfooter {
+    border-top: 1px solid #eee;
+    padding: 20px 0;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    font-size: 13px;
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
 }
 
+.pfooterbottom {
+    margin: 5px 0;
+}
+
+.linksbottomfooter {
+    display: flex;
+    gap: 25px;
+}
+
+.abottomfooter {
+    text-decoration: none;
+    color: #555555;
+    font-weight: 400;
+    transition: color 0.2s;
+}
 
